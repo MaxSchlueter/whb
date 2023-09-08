@@ -26,7 +26,7 @@ const constants = {
     countdownSeconds: 3,
     breathsPerRound: 30,
     breatheInHoldDuration: 15,
-    breatheInOutDuration: 3.1,
+    breatheInOutDuration: 5.0,
     breatheInHoldCooldown: 3,
 }
 
