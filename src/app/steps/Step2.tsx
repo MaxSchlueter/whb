@@ -33,10 +33,10 @@ class Step2 extends React.Component<Props, State> {
     breathe(direction: 'in' | 'out') {
         if (direction === 'in') {
             this.setState({direction, breatheCount: this.state.breatheCount + 1});
-            sounds.play('breatheIn');
+            /* sounds.play('breatheIn'); */
         } else {
             this.setState({direction});
-            sounds.play('breatheOut');
+            /* sounds.play('breatheOut'); */
         }
     }
 
